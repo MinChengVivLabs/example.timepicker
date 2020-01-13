@@ -1,0 +1,7 @@
+capsule-info {
+  display-name ("MCVS Time Picker")
+  dispatch-name ("Time Picker")
+  developer-name (Min Cheng)
+  icon-asset (icon.png)
+  description ("__DESCRIPTION__")
+}

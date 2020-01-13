@@ -1,0 +1,4 @@
+structure (MyTime) {
+  description (__DESCRIPTION__)
+  role-of (time.Time)
+}

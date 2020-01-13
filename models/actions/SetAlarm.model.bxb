@@ -1,0 +1,34 @@
+action (SetAlarm) {
+  description (Set alarm to target time, assume everyday)
+  type (Constructor)
+  collect {
+    input (message) {
+      type (TextMessage)
+      min (Required) max (One)
+      default-init {
+        intent {
+          goal: TextMessage
+          value: TextMessage("Wake up")
+        }
+      }
+    }
+    input (time) {
+      type (MyTime) 
+      min (Required) max (One)
+      default-select {
+        with-rule {
+          select-first
+        }
+      }
+    }
+  }
+  output (StructAlarm) 
+  {
+    evaluate {
+      StructAlarm {
+        message {.$expr(message)}
+        targetTime {.$expr(time)}
+      }
+    }
+  }
+}

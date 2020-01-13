@@ -1,0 +1,12 @@
+input-view {
+  match {
+    MyTime (this)
+  }
+  message: template ("Please select a time")
+  render {
+    time-picker {
+      initial-value (now().time)
+      step (30)
+    }
+  }
+}

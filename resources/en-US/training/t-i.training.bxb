@@ -1,0 +1,5 @@
+train (t-iqyry6ktqw2f1fchvicnzf1mz) {
+  utterance ("[g:SetAlarm] set alarm to (9 PM)[v:time.DateTimeExpression]")
+  plan (bc1BDoIwEAXQXxHvYAgeoXcg0SUre4GGTEgjlaaMpN6eaXXZWf0/L5PBBTdK1oeFNDtPwU0vivrJ8TPxsNjo0dWc/nit4Pg1UtBX6JFCNGvh2ltDiUfaNjsTut3txfTdMuWTfCzo1jdaKJzQ4CwJJStpquTf5I3YAQ==)
+  last-modified (1578951412030)
+}

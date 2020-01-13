@@ -1,0 +1,24 @@
+- request:
+    capsuleId: viv.time
+    headers:
+      Accept: application/json
+      Accept-Charset: UTF-8
+      Accept-Encoding: gzip
+      Content-Type: application/json
+      User-Agent: Mozilla/5.0 (compatible) gzip
+    method: POST
+    requestBodyFilename: webcache/prod-default-time-service.partner-int-1-req.json
+    url: >-
+      http://prod-default-time-service.partner-int/time/v2/resolve/ambiguous/date_time
+  response:
+    headers:
+      $status: HTTP/1.1 200 OK
+      Connection: close
+      Content-Length: '441'
+      Content-Type: application/json
+      Date: 'Mon, 13 Jan 2020 21:39:39 GMT'
+      Set-Cookie: >-
+        AWSALB=f4/D6DerF2fTAVeFUBjWr2qYyuyaNHqpEuL4RkBUheorRuNTsOOC4CkNHRGvZrGKr34JX1qLADrVUAWmD5T95FLrlEcXjo5enNWP26zjDHMOR7HbhGZDrkcHgOEj;
+        Expires=Mon, 20 Jan 2020 21:39:39 GMT; Path=/
+    responseFilename: webcache/prod-default-time-service.partner-int-1-res.json
+    status: 200

@@ -1,0 +1,11 @@
+structure (StructAlarm) {
+  description (Alarm with time and text message)
+  property (message) {
+    type (TextMessage)
+    min (Required) max (One)
+  }
+  property (targetTime) {
+    type (time.Time) 
+    min (Required) max (One)
+  }
+}

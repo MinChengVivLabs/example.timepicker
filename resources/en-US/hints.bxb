@@ -1,0 +1,5 @@
+hints {
+  uncategorized {
+    hint ("Ask Time Picker to Set alarm")
+  }
+}

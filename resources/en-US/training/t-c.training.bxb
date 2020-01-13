@@ -1,0 +1,5 @@
+train (t-cu9jvsakbly90ax0a5y38evvk) {
+  utterance ("[g:MyTime:prompt] (8 PM)[v:time.DateTimeExpression]")
+  plan (Y2BmkEytSMwtyEnVK8nMTS3ITM5OLdLzrQwBchhksUi5VhQUheSDpaXLMsvAUnouiSWpICGQZGpxcWZ+HgMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1578951412327)
+}

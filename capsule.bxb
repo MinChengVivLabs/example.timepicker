@@ -1,0 +1,15 @@
+capsule {
+  id (example.timepicker)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  runtime-version (2)
+  capsule-imports {
+    import (viv.time) {
+      as (time) 
+      version (3.1.23)
+    }
+  }
+}

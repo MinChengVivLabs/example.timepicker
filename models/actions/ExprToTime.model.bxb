@@ -1,0 +1,18 @@
+action (ExprToTime) {
+  description (Get the time part from DateTimeExpression)
+  type (Constructor)
+  collect {
+    input (timeExpr) {
+      type (time.DateTimeExpression)
+      min (Required) max (One) 
+      default-select {
+        with-rule: select-first
+      }
+    }
+  }
+  output (MyTime) {
+    evaluate {
+      .$expr(timeExpr.dateTime.time)
+    }
+  }
+}
